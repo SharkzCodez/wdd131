@@ -1,0 +1,95 @@
+body {
+    width: auto;
+    margin: auto;
+    background-color: #B4EFE1;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+    background-color: #E69D87;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.navigation {
+    background-color: #C7BCC7;
+    grid-column: 1/4;
+    text-align: center;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+nav a:hover {
+    border: 3px solid #B4EFE1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+h1 {
+    color: #382726;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+
+}
+
+p {
+    color: #382726;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+}
+
+.card1 {
+    background-color: #DE9BA6;
+    border-radius: 20px;
+    padding: 40px;
+    padding-left: 30;
+    padding-right: 30;
+    position: absolute;
+    left: 30px;
+    width: 120;
+    text-align: center;
+    height: 240px;
+    
+}
+
+.div1 {
+    padding: 40px;
+}
+
+.card2 {
+    background-color:  #AC93BC;
+    border-radius: 20px;
+    padding: 40px;
+    position: absolute;
+    right: 30px;
+    width: 140px;
+    height: 240px;
+    text-align: center;
+}
+
+.card2 a {
+    text-align: center;
+    display: block;
+}
+
+.cardnav {
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+}
+
+.div2 {
+    padding: 160px;
+}
+
+footer {
+    background-color: #C7BCC7;
+    grid-column: 1/4;
+    text-align: center;
+}
