@@ -1,4 +1,4 @@
-//const currentDate = document.querySelector("#currentyear");
+document.querySelector('#currentyear').textContent = new Date().getFullYear();
 //const lastEdit = document.querySelector("#lastModified");
 
 //const timeNow = new Date(); console.log(timeNow); 
