@@ -1,6 +1,12 @@
 document.querySelector('#currentyear').textContent = new Date().getFullYear();
-document.querySelector("#lastModified") = new Date().getDate();
+document.querySelector("#lastModified").textContent = new Date();
 
-//const timeNow = new Date(); console.log(timeNow); 
+const today = new Date();
 
-let lastModified = new Date(document.lastModified);
+//let lastModified = new Date(document.lastModified);
+lastModified.innerHTML = `Last modified: ${new Intl.DateTimeFormat("en-US",
+    {
+        dateStyle: "lastModified"
+
+    }
+).format(today)}`;
