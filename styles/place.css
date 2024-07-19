@@ -44,41 +44,116 @@ p {
     font-weight: 300;
 }
 
-.flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.data {
+.data-table {
     top: 250px;
     left: 40px;
     width: 350px;
     justify-content: left;
 }
 
-.weather {
+.weather-table {
     top: 750px;
     right: 40px;
     width: 300px;
     justify-content: right;
 }
 
-.data, .weather {
+.data-table, .weather-table {
     text-align: center;
     max-width: 100%;
     background-color: #ffc6cf;
+}
+
+label, .value {
+    color: #382726;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
 }
 
 footer {
     background-color: #d6c7d6;
     grid-column: 1/4;
     text-align: center;
-    margin-top: 375px;
+    margin-top: 900px;
 }
 
 
-    @media (max-width: 768px) {
-        .data,.weather {
-             width: 90%;
-         }
-     }
+@media only screen and (min-width: 749px) {
+    .hero {
+        position: absolute;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .data-table, .weather-table {
+        position: absolute;
+        padding: 10px;
+    }
+
+    .data-table {
+        top: 250px;
+        left: 40px;
+        width: 350px;
+    }
+
+    .weather-table {
+        top: 750px;
+        right: 40px;
+        width: 300px;
+    }
+
+    h2 {
+        text-align: left;
+        margin: 10px;
+        padding: 0.75rem;
+        margin-left: -20px;
+        padding-left: 1.5rem;
+    }
+
+    .weather-table {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .data-table, .weather-table {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    main {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        position: relative;
+        top: 839px;
+        height: 150px;
+        margin-top: 3rem;
+        padding: 2.5rem;
+        text-align: center;
+    }
+    
+    .data, .weather {
+        display: flex;
+        padding: 8px 0;
+        margin: 0 20px;
+    }
+    
+    label {
+        flex: 1;
+        text-align: right;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+    span {
+        flex: 1;
+        text-align: left;
+        justify-content: center;
+    }
+}

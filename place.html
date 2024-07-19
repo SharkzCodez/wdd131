@@ -18,37 +18,55 @@
     </header>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="https://th.bing.com/th/id/OIP.FBp2diTRhIcFHAAz5zo0ugHaFD?w=1100&h=750&rs=1&pid=ImgDetMain" alt="Aerial photo of Barcelona, Spain" media="(min-width: 750px)">
+                <img src="https://i.pinimg.com/originals/a0/5a/e1/a05ae14539ba48a6bb4fb1996f11dd70.jpg">
+            </picture>
+        </div>
 
-        <div class="flex">
-            <div class="data">
+            <div class="data-table">
                 <h2>Data</h2>
-                <ul id="data-table">
-                    <p>Area: 498,980.00 km 2</p>
-                    <p>Population: 48,692,804</p>
-                    <p>Capital: Madrid</p>
-                    <p>Languages: Spanish</p>
-                    <p>Currency: Euro</p>
-                    <p>Timezone: CET</p>
-                    <p>Calling Code: +34</p>
-                    <p>Internet TLD: .es</p>
-                </ul>
+                <div class="data">
+                    <label class="label"><strong>Area: </strong></label><span class="value">498,980.00 km 2</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Population: </strong></label><span class="value">48,692,804</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Capital: </strong></label><span class="value">Madrid</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Languages: </strong></label><span class="value">Spanish</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Currency: </strong></label><span class="value">Euro</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Timezone: </strong></label><span class="value">CET</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Calling Code: </strong></label><span class="value">+34</span>
+                </div>
+                <div class="data">
+                    <label class="label"><strong>Internet TLD: </strong></label><span class="value">.es</span>
+                </div>
             </div>
 
-            <div class="hero">
-                <picture>
-                    <source srcset="https://i.pinimg.com/originals/a0/5a/e1/a05ae14539ba48a6bb4fb1996f11dd70.jpg" media="(max-width: 750px)">
-                    <img src="https://th.bing.com/th/id/OIP.FBp2diTRhIcFHAAz5zo0ugHaFD?w=1100&h=750&rs=1&pid=ImgDetMain" alt="Aerial photo of Barcelona, Spain">
-                </picture>
-            </div>
-
-            <div class="weather">
+            <div class="weather-table">
                 <h2>Weather 🌤️</h2>
-                <ul id="weather-table">
-                    <p>Temperature: 22 C</p>
-                    <p>Conditions: Sunny</p>
-                    <p>Wind: 3 kmph</p>
-                    <p>Wind Chill: <span id="windchill"></span></p>
-                </ul>
+                <div class="weather">
+                    <label class="label"><strong>Temperature: </strong></label><span class="value">22 C</span>
+                </div>
+                <div class="weather">
+                    <label class="label"><strong>Conditions: </strong></label><span class="value">Sunny</span>
+                </div>
+                <div class="weather">
+                    <label class="label"><strong>Wind: </strong></label><span class="value">3 kmph</span>
+                </div>
+                <div class="weather">
+                    <label class="label"><strong>Wind Chill: <span id="windchill"></span>
+                </div>
             </div>
         </div>
     </main>
