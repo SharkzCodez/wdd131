@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Homepage">
+    <meta name="author" content="Zsa Zsa LeBlanc">
+    <title>WDD 131 - Dynamic Web Fundamentals - Zsa Zsa LeBlanc</title>
+   
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Spain</h1>
+    </header>
+
+    <main>
+
+        <div class="flex">
+            <div class="data">
+                <h2>Data</h2>
+                <ul id="data-table">
+                    <p><strong>Area: </strong>498,980.00 km 2</p>
+                    <p><strong>Population: </strong>48,692,804</p>
+                    <p><strong>Capital: </strong>Madrid</p>
+                    <p><strong>Languages: </strong>Spanish</p>
+                    <p><strong>Currency: </strong>Euro</p>
+                    <p><strong>Timezone: </strong>CET</p>
+                    <p><strong>Calling Code: </strong>+34</p>
+                    <p><strong>Internet TLD: </strong>.es</p>
+                </ul>
+            </div>
+
+            <div class="hero">
+                <picture>
+                    <source srcset="https://i.pinimg.com/originals/a0/5a/e1/a05ae14539ba48a6bb4fb1996f11dd70.jpg" media="(max-width: 750px)">
+                    <img src="https://th.bing.com/th/id/OIP.FBp2diTRhIcFHAAz5zo0ugHaFD?w=1100&h=750&rs=1&pid=ImgDetMain" alt="Aerial photo of Barcelona, Spain">
+                </picture>
+            </div>
+
+            <div class="weather">
+                <h2>Weather 🌤️</h2>
+                <ul id="weather-table">
+                    <p><strong>Temperature: </strong>22 C</p>
+                    <p><strong>Conditions: </strong>Sunny</p>
+                    <p><strong>Wind: </strong>3 kmph</p>
+                    <p><strong>Wind Chill: </strong><span id="windchill"></span></p>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+            Zsa Zsa LeBlanc
+            Texas
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
