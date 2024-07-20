@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Hind:wght@300&display=swap");
+
+
+body {
+    width: auto;
+    margin: auto;
+    background-color: #8dcabc;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+    background-color: #E69D87;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.navigation {
+    background-color: #d6c7d6;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation.open {
+    display: none;
+}
+
+.navigation a:hover {
+    border: 3px solid #B4EFE1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+h1 {
+    color: #382726;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+h2 {
+    color: #382726;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 80%;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+figure {
+    background-color: #ffc6cf;
+    margin: 0;
+    text-align: center;
+    
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    color: #382726;
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+
+
+footer {
+    background-color: #d6c7d6;
+    grid-column: 1/4;
+    text-align: center;
+}
