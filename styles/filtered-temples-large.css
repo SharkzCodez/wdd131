@@ -11,8 +11,16 @@
     }
     #menu {
         display: none;
-    }    
+    }  
+    #templesYippee {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }  
 }
+
 
 @media (max-width: 768px) {
     .grid-container {
