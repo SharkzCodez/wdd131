@@ -1,35 +1,101 @@
-@media only screen and (min-width: 700px) {
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-    .navigation a {
-        text-align: center;
-    }
-    #menu {
-        display: none;
-    }  
-    #templesYippee {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1rem;
-        justify-content: center;
-        align-items: center;
-    }  
-}
+@media screen and (min-width: 500px) {
+	body {
+		font-family: "Pt Sans", sans-serif;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	header{
+        background-color: #E69D87;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+	h1{
+		color: #382726;
+        font-family: "Caveat", cursive;
+		text-align: center;
+		align-self: center;
+	}
+	
+	nav{
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 16px;
+		align-self: center;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+        font-family: "Caveat", cursive;
+        color: #382726;
+	}
 
+	#menu {
+		display: none;
+	}
 
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
+	.navigation {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.navigation a {
+		display: block;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+	
+	nav a:hover{
+		color: #382726;
+		background-color: white;
+	}
+	
+	h2{
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	main{
+		margin: 0 auto;
+		display: grid;
+		max-width: 1800px;
+		padding: 1rem;
+	}
+	
+	div{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 5rem;
+	}
+
+	section{
+		background-color: #ffc6cf;
+		padding: 2rem;
+		margin: 1rem;
+		color: #382726;
+		text-align: center;
+	}
+
+	section img{
+		height: 200px;
+	}
+
+	.description{
+		color: #382726;
+	}
+	
+	footer{
+		text-align: center;
+		font-size: 18px;
+		background-color: #d6c7d6;
+		margin-top: 30px;
+		padding: .5px;
+	}
+	
 }
