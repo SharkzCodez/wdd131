@@ -39,7 +39,16 @@ nav ul {
 
 
 h1 {
-    color: #382726;
+    color: #1f1514;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+h2 {
+    color: #1f1514;
     font-family: "Caveat", cursive;
     font-weight: 500;
     max-width: 100%;
@@ -67,13 +76,18 @@ figure img {
     width: 100%;
     height: auto;
     display: block;
+    
 }
 
 figcaption {
-    color: #382726;
+    color: #1f1514;
     font-family: "Hind", sans-serif;
     font-weight: 300;
     text-align: center;
+}
+
+figure:hover {
+    border: 3px solid #B4EFE1;
 }
 
 
