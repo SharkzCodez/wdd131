@@ -38,6 +38,7 @@ h2 {
 }
 
 .hero img {
+    padding-bottom: 10px;
     display: block;
     width: 100%;
     height: auto;
