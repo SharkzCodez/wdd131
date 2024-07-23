@@ -6,6 +6,7 @@ menuButton.addEventListener('click', () => {
 	menuButton.classList.toggle('open');
 });
 
+const templeContainer = document.getElementById('temple-selector');
 const temples = [
 	{
 	  templeName: "Aba Nigeria",
@@ -109,7 +110,7 @@ newTemple.addEventListener("click", () => {
 });
 
 bigTemple.addEventListener("click", () => {
-	const bigTemples = temples.filter(temple => (temple.area > 90000));
+	const bigTemples = temples.filter(temple => (temple.area >= 90000));
 	createTempleCard(bigTemples);
 });
 

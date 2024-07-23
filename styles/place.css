@@ -24,14 +24,14 @@ header {
 }
 
 h1 {
-    color: #382726;
+    color: #1f1514;
     font-family: "Caveat", cursive;
     font-weight: 500;
 
 }
 
 h2 {
-    color: #382726;
+    color: #1f1514;
     font-family: "Caveat", cursive;
     font-weight: 500;
 
@@ -47,7 +47,7 @@ h2 {
 }
 
 p {
-    color: #382726;
+    color: #1f1514;
     font-family: "Hind", sans-serif;
     font-weight: 300;
 }
@@ -73,7 +73,7 @@ p {
 }
 
 label, .value {
-    color: #382726;
+    color: #1f1514;
     font-family: "Hind", sans-serif;
     font-weight: 300;
 }
