@@ -3,7 +3,7 @@
 :root {
     --primary-color: #8dcabc;
     --hero-image-max-width: 100%;
-    
+
 }
 
 body {
@@ -38,9 +38,11 @@ h2 {
 }
 
 .hero img {
+    display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
+    justify-content: center;
 }
 
 p {
@@ -79,7 +81,7 @@ footer {
     background-color: #d6c7d6;
     grid-column: 1/4;
     text-align: center;
-    margin-top: 900px;
+    margin-top: 1100px;
 }
 
 
@@ -89,6 +91,7 @@ footer {
     }
 
     .hero img {
+        justify-content: center;
         width: 100%;
         height: auto;
         object-fit: cover;
