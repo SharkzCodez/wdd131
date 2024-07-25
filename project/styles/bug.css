@@ -1,0 +1,157 @@
+:root {
+    --font-black: #101019;
+    --background-pink: #BF9CB1;
+}
+
+body {
+    background-color: #95A329;
+    width: auto;
+    margin: auto;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+    grid-column: 1/4;
+    text-align: center;
+    background-color: var(--background-pink);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+h1, h2, p {
+    display: block;
+    align-items: center;
+    color: var(--font-black);
+    text-align: center;
+    padding: 60px;
+}
+
+h1, h2 {
+    font-family: "Lilita One", sans-serif;
+    background-color: var(--background-pink);
+    max-width: 100%;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navigation {
+    text-align: center;
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--background-pink);
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    color: var(--font-black);
+}
+
+.navigation a:hover {
+    border: 2px solid #95A329;
+}
+
+figure {
+    background-color: var(--background-pink);
+    margin: 0;
+    text-align: center;
+    
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    color: var(--font-black);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--background-pink);
+    grid-column: 1/4;
+    text-align: center;
+}
+
+
+
+
+
+/*@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Hind:wght@300&display=swap");
+
+
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: #382726;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+h2 {
+    color: #382726;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 80%;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+figure {
+    background-color: var(--background-pink);
+    margin: 0;
+    text-align: center;
+    
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    color: var(--font-black);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--background-pink);
+    grid-column: 1/4;
+    text-align: center;
+}

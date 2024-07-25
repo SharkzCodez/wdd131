@@ -1,0 +1,106 @@
+@media screen and (min-width: 500px) {
+	:root {
+		--font-black: #101019;
+		--background-pink: #BF9CB1;
+	}
+
+	body {
+		font-family: "Pt Sans", sans-serif;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	header{
+        background-color: var(--background-pink);
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+	h1{
+		color: var(--font-black);
+        font-family: "Lilita One", sans-serif;
+		text-align: center;
+		align-self: center;
+	}
+	
+	nav{
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 16px;
+		align-self: center;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+        font-family: "Lilita One", sans-serif;
+        color: var(--font-black);
+	}
+
+	#menu {
+		display: none;
+	}
+
+	.filtering {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.filtering a {
+		display: block;
+	}
+
+	a{
+		color: var(--font-black);
+		text-decoration: none;
+		text-align: center;
+	}
+	
+	nav a:hover{
+		color: var(--font-black);
+		background-color: var(--background-pink);
+	}
+	
+	h2{
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	main{
+		margin: 0 auto;
+		display: grid;
+		max-width: 1800px;
+		padding: 1rem;
+	}
+	
+	div{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 5rem;
+	}
+
+	section{
+		background-color: var(--background-pink);
+		padding: 2rem;
+		margin: 1rem;
+		color: var(--font-black);
+		text-align: center;
+	}
+
+	section img{
+		height: 200px;
+	}
+
+	.description{
+		color: var(--font-black);
+	}
+	
+	footer{
+		text-align: center;
+		font-size: 18px;
+		background-color: var(--background-pink);
+		margin-top: 30px;
+		padding: .5px;
+	}
+	
+}
